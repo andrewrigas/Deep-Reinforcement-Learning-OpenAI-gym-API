@@ -17,6 +17,7 @@ object main extends App{
 
   val qlearner = new QLearning(100,1000,0.9,0.01,90)
 
+  //kjoj
   gym.shutDown() //Drop Python Server API
   gymClient.terminate // Terminate Actor System
 }
