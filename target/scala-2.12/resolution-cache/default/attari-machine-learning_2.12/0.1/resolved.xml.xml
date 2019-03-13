@@ -4,7 +4,7 @@
 		module="attari-machine-learning_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190219182256"
+		publication="20190221163504"
 	>
 		<description>
 		Attari Machine Learning
@@ -32,5 +32,15 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-jackson_2.12" rev="10.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.12" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-testkit_2.12" rev="2.5.12" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.12" rev="10.1.1" conf="test->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.12" rev="0.13.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-viz_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

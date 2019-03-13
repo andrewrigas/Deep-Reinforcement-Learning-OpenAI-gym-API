@@ -10,7 +10,7 @@ import akka.stream.ActorMaterializer
 import scala.concurrent.duration._
 import scala.concurrent.{Await, ExecutionContextExecutor, Future}
 
-object gym {
+object gymClient {
 
   //Actor represented by an ActorRef which is basically a pointer
   //It has an Ordered mailbox with messages
@@ -21,7 +21,9 @@ object gym {
   //It can Change behaviour at runtime
 
   private implicit val system = ActorSystem.create("system") // Create an Actor System for messages communication
-  implicit val materializer: ActorMaterializer = ActorMaterializer()
+
+  implicit def materializer: ActorMaterializer = ActorMaterializer()
+
   val executionContext: ExecutionContextExecutor = system.dispatcher //Implicit dispatcher for future function calls
 
   private val host: String = "http://127.0.0.1" // Local Host address
@@ -40,39 +42,5 @@ object gym {
   }
 
 
-  def make(env: String): Environment = {
 
-      //Create Environment request
-      val request: createEnv = createEnv(env)
-
-      //Http Post Request to api
-      val res = requestToApi(request)
-
-      implicit val EnvInstance = res match {
-        //Manipulate The Response
-        case HttpResponse(StatusCodes.OK, headers, entity, _) =>  Await.result(Unmarshal(entity).to[EnvInstance], gym.timeout.second)
-        case _ => throw new Exception
-      }
-
-      //Create New Environment with EnvInstance
-      new Environment()
-  }
-
-  def getListEnvs(): ListEnvs = {
-    //Create listEnvs request
-    val request: listEnvs = listEnvs()
-
-    //Http Get Request to api
-    val res = requestToApi(request)
-
-    res match {
-      case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[ListEnvs], gym.timeout.second)
-    }
-  }
-
-  def shutDown(): Unit = {
-    val request = shutdown()
-
-    requestToApi(request)
-  }
 }
