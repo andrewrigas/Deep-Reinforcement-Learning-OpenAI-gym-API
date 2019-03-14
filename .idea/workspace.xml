@@ -6,7 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="1ae2d9bf-9226-4736-80bf-bd7a3ceb83da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Agent/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Agent/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/test.sc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="345">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#2#20#0" expanded="true" />
               </folding>
@@ -68,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -82,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="105">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="e#19#38#0" expanded="true" />
               </folding>
@@ -109,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="660">
+              <caret line="45" column="147" selection-start-line="45" selection-start-column="147" selection-end-line="45" selection-end-column="147" />
               <folding>
                 <element signature="e#20#84#0" expanded="true" />
               </folding>
@@ -165,17 +179,17 @@
         <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="130" />
+  <component name="ProjectFrameBounds" extendedState="5">
+    <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1797" />
+    <option name="width" value="1777" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -252,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552516143061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552578060151" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -372,7 +386,9 @@
       <workItem from="1552325599104" duration="6314000" />
       <workItem from="1552413549102" duration="9610000" />
       <workItem from="1552498124336" duration="1645000" />
-      <workItem from="1552505652366" duration="3611000" />
+      <workItem from="1552505652366" duration="4825000" />
+      <workItem from="1552520117723" duration="749000" />
+      <workItem from="1552574794413" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1552516123710</created>
@@ -385,13 +401,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113098000" />
+    <option name="totallyTimeSpent" value="116974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="27" width="1797" height="1053" extended-state="4" />
+    <frame x="461" y="27" width="1777" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15019989" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1530907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -400,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18790497" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.24891774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,8 +425,8 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.29545453" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50086653" side_tool="true" visible="true" weight="0.24891774" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4991384" weight="0.29545453" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -510,6 +526,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -522,42 +559,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="660">
+          <caret line="45" column="147" selection-start-line="45" selection-start-column="147" selection-end-line="45" selection-end-column="147" />
           <folding>
             <element signature="e#20#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymApi.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#19#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -571,19 +577,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymApi.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="840">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="345">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#2#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#19#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

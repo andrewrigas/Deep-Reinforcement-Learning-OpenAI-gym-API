@@ -14,7 +14,7 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   // Create a private QValues Map
   private var QValues: Map[(State,Action), Reward] = Map()
 
-  def TrialsClassic(env: ClassicControlEnvironment) ={
+  private def TrialsClassic(env: ClassicControlEnvironment) ={
 
     for(i <- 0 to trials){
       val observation = env.reset()
@@ -24,7 +24,7 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   }
 
 
-  def EpisodesClassic(env: ClassicControlEnvironment,observation: ObservationClassicControl) ={
+  private def EpisodesClassic(env: ClassicControlEnvironment,observation: ObservationClassicControl) ={
 
     var currentState: ObservationClassicControl = observation
 
@@ -41,6 +41,8 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
           val reply = env.step(action)
           //Get the next state
           val nextState = ObservationClassicControl(reply.observation)
+
+          updateQValues(reply.reward)
           //Set the next State as the current State
           currentState = nextState
           //Update the value done if the game is over
@@ -51,27 +53,30 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   }
 
 
-  def E_greedyClassic(env: ClassicControlEnvironment,currState: ObservationClassicControl): Action = {
+  private def E_greedyClassic(env: ClassicControlEnvironment,currState: ObservationClassicControl): Action = {
 
     if(Random.nextInt(100) > epsilon){
       //Explore take random Action
       env.action_space().sample()
     }else {
-      val someRewards: Seq[(Option[Reward], Action)] = for(i <- 1 to env.action_space().info.n ) yield (QValues.get((currState,i)), i)
-
-      val rewards: Seq[(Reward, Action)] = someRewards.filter(x => x._1.isDefined).map(t => (t._1.get,t._2))
+      val rewards: Seq[(Reward, Action)] = getQvalues(env,currState)
 
       if(rewards.isEmpty){
         //If is the first time then take a random Action
         env.action_space().sample()
       }else{
         //Max by reward
-        rewards.maxBy(_._1)
+        rewards.maxBy(_._1)._2
       }
     }
   }
 
-  def updateQValues(): Unit ={
+  private def getQvalues(env: ClassicControlEnvironment, currState: ObservationClassicControl): Seq[(Reward, Action)] = {
+    val someRewards: Seq[(Option[Reward], Action)] = for(i <- 1 to env.action_space().info.n ) yield (QValues.get((currState,i)), i)
+    someRewards.filter(x => x._1.isDefined).map(t => (t._1.get,t._2))
+  }
+
+  def updateQValues(reward: Reward): Unit ={
 
   }
 
@@ -84,22 +89,23 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   }
 
 
-  def EpisodesAtari(env: AtariEnvironment) ={
+    def EpisodesAtari(env: AtariEnvironment) ={
 
-    def episodes(i: Int) ={
+      def episodes(i: Int) ={
+
+      }
+
 
     }
 
 
-  }
+    def E_greedyAtari(env: AtariEnvironment) = {
 
-
-  def E_greedyAtari(env: AtariEnvironment) = {
-
-  }
+    }
 
 
   def runQlearning(env: Environment, QValues: Map[(Observation,Action),Reward]) ={
+    //Pattern Matching
     env match {
       case AtariEnvironment(i) => TrialsAtari(AtariEnvironment(i))
       case ClassicControlEnvironment(i) => TrialsClassic(ClassicControlEnvironment(i))

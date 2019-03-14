@@ -9,7 +9,7 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 //Non-general Responses
 sealed trait Observation
 
-sealed trait StepReply(reward: Double, done: Boolean, info: Map[String, Int])
+sealed trait StepReply
 
 
 
@@ -36,14 +36,14 @@ case class ObservationSpace(info:BoxSpace)
 
 case class ObservationClassicControl(observation: List[Double]) extends  Observation
 
-case class StepReplyClassicControl(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply(reward,done,info)
+case class StepReplyClassicControl(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply
 
 
 //Atari Responses
 
 case class ObservationAtari(observation: List[List[(Double,Double,Double)]]) extends Observation
 
-case class StepReplyAtari(observation: List[List[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply(reward, done, info)
+case class StepReplyAtari(observation: List[List[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply
 
 //https://doc.akka.io/docs/akka/2.4.5/scala/http/routing-dsl/directives/marshalling-directives/entity.html
 //Unmarshalls the request entity to the given type and passes it to its inner Route

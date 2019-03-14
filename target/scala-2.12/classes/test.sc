@@ -3,27 +3,10 @@ List(1,2,3,4,5).foldLeft(0)((acc, v) => acc + v)
 
 List(1,2,3,5).reduce((v1 , v2) => v1 + v2)
 
-class superclass(){
-  var b: Boolean = true
-}
+val map: Map[(Int, Int), String] = Map((1,3) -> "1",(1,4) -> "2", (1,3) -> "3")
 
-class class1() extends superclass{
-  var c: Int = 0
-}
-class class2() extends superclass {
-  var c: String = "s"
-}
+val list = List((1,4), (23,12), (22,52))
 
+for(i <- 1 to 5) yield map.get(i,i)
 
-def foo(i: Int): superclass ={
-  if(i == 1){
-    return new class1()
-  }
-  else {
-    return new class2()
-  }
-}
-
-val e: superclass = foo(1)
-
-e.
+val x = list.max._1
