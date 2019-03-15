@@ -164,6 +164,17 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.xmlgraphics#xmlgraphics-commons;1.3.1
+[debug] 	found org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 in sbt-chain
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#spire-macros_2.12;0.13.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.12;0.13.0
@@ -197,6 +208,17 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: jfree#jfreechart;1.0.13 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: jfree#jfreechart;1.0.13
+[debug] 	found jfree#jfreechart;1.0.13 in sbt-chain
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.12 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.5.12
@@ -400,6 +422,39 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: bouncycastle#bcmail-jdk14;138 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: bouncycastle#bcmail-jdk14;138
+[debug] 	found bouncycastle#bcmail-jdk14;138 in sbt-chain
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: net.sourceforge.f2j#arpack_combined_all;0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
+[debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: bouncycastle#bcprov-jdk14;138 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: bouncycastle#bcprov-jdk14;138
+[debug] 	found bouncycastle#bcprov-jdk14;138 in sbt-chain
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.chuusai#shapeless_2.12;2.3.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.chuusai#shapeless_2.12;2.3.2
@@ -592,6 +647,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
@@ -616,6 +679,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile]
@@ -768,6 +839,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
@@ -936,6 +1031,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
@@ -960,6 +1063,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->compile]
@@ -1112,6 +1223,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
@@ -1288,6 +1423,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
@@ -1312,6 +1455,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile]
@@ -1464,6 +1615,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
@@ -1632,6 +1807,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
@@ -1656,6 +1839,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->compile]
@@ -1808,6 +1999,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
@@ -1996,6 +2211,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->compile]
@@ -2020,6 +2243,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test->default]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream-testkit_2.12;2.5.12
@@ -2212,6 +2443,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->compile]
@@ -2387,6 +2642,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
@@ -2411,6 +2674,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile]
@@ -2563,6 +2834,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
@@ -2733,6 +3028,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile-internal->compile]
@@ -2757,6 +3060,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile-internal->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile-internal->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile-internal->compile]
@@ -2909,6 +3220,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile-internal->compile]
@@ -3081,6 +3416,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
@@ -3105,6 +3448,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile]
@@ -3257,6 +3608,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
@@ -3425,6 +3800,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
@@ -3449,6 +3832,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->compile]
@@ -3601,6 +3992,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
@@ -3770,6 +4185,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime-internal->compile]
@@ -3794,6 +4217,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime-internal->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime-internal->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime-internal->compile]
@@ -3946,6 +4377,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime-internal->compile]
@@ -4119,6 +4574,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [compile->compile]
@@ -4143,6 +4606,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile]
@@ -4295,6 +4766,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [compile->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [compile->compile]
@@ -4463,6 +4958,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [runtime->compile]
@@ -4487,6 +4990,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-actor_2.12;2.5.12 [runtime->compile]
@@ -4639,6 +5150,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [runtime->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [runtime->compile]
@@ -4823,6 +5358,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test->compile]
@@ -4847,6 +5390,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test->compile]
@@ -5031,6 +5582,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test->compile]
@@ -5217,6 +5792,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe#config;1.3.2 [test-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.apache.xmlgraphics#xmlgraphics-commons;1.3.1 [test-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->org.spire-math#spire-macros_2.12;0.13.0 [test-internal->compile]
@@ -5241,6 +5824,14 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->compile(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jfree#jfreechart;1.0.13 [test-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test-internal->default]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test-internal->runtime]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-stream-testkit_2.12;2.5.12 [test-internal->compile]
@@ -5425,6 +6016,30 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.typesafe.akka#akka-http-jackson_2.12;10.1.1 [test-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcmail-jdk14;138 [test-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->master]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->master(compile)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->runtime]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->compile]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->compile(*)]
+[debug] == resolving dependencies default#attari-machine-learning$sources;0.1->bouncycastle#bcprov-jdk14;138 [test-internal->master]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test-internal->compile]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->com.chuusai#shapeless_2.12;2.3.2 [test-internal->compile]
@@ -5535,155 +6150,131 @@
 [debug] == resolving dependencies default#attari-machine-learning$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.12!akka-stream_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.1!akka-http-spray-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.1!akka-http_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
 [debug] 	[NOT REQUIRED] com.lowagie#itext;2.1.5!itext.jar(src)
 [debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.4!spray-json_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
-[debug] no default ivy user dir defined: set to /home/rigas/.ivy2
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/rigas/.ivy2/cache
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (49ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (44ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (49ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.1!akka-http-spray-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.1!akka-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.8.2!junit.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.12;0.13.2!breeze-macros_2.12.jar(src)
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
-[debug] settings loaded (47ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.12;0.13.0!spire-macros_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
-[debug] settings loaded (48ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.4!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.12!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.4!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)
+[debug] 		tried /home/rigas/.ivy2/local/org.apache.xmlgraphics/xmlgraphics-commons/1.3.1/srcs/xmlgraphics-commons-sources.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.4!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#spire_2.12;0.13.0!spire_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.12!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-viz_2.12;0.13.2!breeze-viz_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jfree#jcommon;1.0.16!jcommon.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(src)
-[debug] including url: jar:file:/home/rigas/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.12;0.13.2!breeze_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;1.3.1!commons-io.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-jackson_2.12;10.1.1!akka-http-jackson_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.1!akka-parsing_2.12.jar(src)
-[debug] settings loaded (61ms)
-[debug] 	default cache: /home/rigas/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	[NOT REQUIRED] jfree#jcommon;1.0.16!jcommon.jar(src)
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] 		tried /home/rigas/.ivy2/local/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[debug] 		tried /home/rigas/.ivy2/local/bouncycastle/bcmail-jdk14/138/srcs/bcmail-jdk14-sources.jar
+[debug] 		tried /home/rigas/.ivy2/local/bouncycastle/bcprov-jdk14/138/srcs/bcprov-jdk14-sources.jar
+[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src)
+[debug] 		tried /home/rigas/.ivy2/local/jfree/jfreechart/1.0.13/srcs/jfreechart-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.1!akka-parsing_2.12.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.12!akka-protobuf_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.1!akka-http-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.12!akka-testkit_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.spire-math#spire_2.12;0.13.0!spire_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-testkit_2.12;2.5.12!akka-stream-testkit_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-testkit_2.12;10.1.1!akka-http-testkit_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-testkit_2.12;2.5.12!akka-stream-testkit_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.12!akka-testkit_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 1193ms :: artifacts dl 91ms
-[debug] 	report for default#attari-machine-learning$sources;0.1 compile produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 runtime produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 test produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 provided produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 optional produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 compile-internal produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 runtime-internal produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 test-internal produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 plugin produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 pom produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml
-[debug] 	report for default#attari-machine-learning$sources;0.1 scala-tool produced in /home/rigas/IdeaProjects/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml
-[debug] 	resolve done (1193ms resolve - 91ms download)
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138-sources.jar
+[debug] 		tried /home/rigas/.sbt/preloaded/org.apache.xmlgraphics/xmlgraphics-commons/1.3.1/srcs/xmlgraphics-commons-sources.jar
+[debug] 		tried /home/rigas/.sbt/preloaded/jfree/jfreechart/1.0.13/srcs/jfreechart-sources.jar
+[debug] 		tried /home/rigas/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[debug] 		tried /home/rigas/.sbt/preloaded/bouncycastle/bcprov-jdk14/138/srcs/bcprov-jdk14-sources.jar
+[debug] 		tried /home/rigas/.sbt/preloaded/bouncycastle/bcmail-jdk14/138/srcs/bcmail-jdk14-sources.jar
+[debug] 		tried file:////home/rigas/.sbt/preloaded/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1-sources.jar
+[debug] 		tried file:////home/rigas/.sbt/preloaded/jfree/jfreechart/1.0.13/jfreechart-1.0.13-sources.jar
+[debug] 		tried file:////home/rigas/.sbt/preloaded/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138-sources.jar
+[debug] 		tried file:////home/rigas/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried file:////home/rigas/.sbt/preloaded/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] bouncycastle#bcmail-jdk14;138!bcmail-jdk14.jar(src):  (0ms).
+[warn] 	Detected merged artifact: [FAILED     ] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src):  (0ms).
+[warn] 	Detected merged artifact: [FAILED     ] jfree#jfreechart;1.0.13!jfreechart.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /home/rigas/.sbt/preloaded/jfree/jfreechart/1.0.13/srcs/jfreechart-sources.jar
+[warn]   https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== local-preloaded: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   file:////home/rigas/.sbt/preloaded/jfree/jfreechart/1.0.13/jfreechart-1.0.13-sources.jar
+[warn]   /home/rigas/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////home/rigas/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] bouncycastle#bcprov-jdk14;138!bcprov-jdk14.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /home/rigas/.sbt/preloaded/bouncycastle/bcprov-jdk14/138/srcs/bcprov-jdk14-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////home/rigas/.sbt/preloaded/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138-sources.jar
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /home/rigas/.sbt/preloaded/bouncycastle/bcmail-jdk14/138/srcs/bcmail-jdk14-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////home/rigas/.sbt/preloaded/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.xmlgraphics#xmlgraphics-commons;1.3.1!xmlgraphics-commons.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1-sources.jar
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /home/rigas/.sbt/preloaded/org.apache.xmlgraphics/xmlgraphics-commons/1.3.1/srcs/xmlgraphics-commons-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////home/rigas/.sbt/preloaded/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1-sources.jar
+[debug] :: resolution report :: resolve 641ms :: artifacts dl 975ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.apache.xmlgraphics#xmlgraphics-commons;1.3.1!xmlgraphics-commons.jar(src)
+[warn] 	:: jfree#jfreechart;1.0.13!jfreechart.jar(src)
+[warn] 	:: bouncycastle#bcmail-jdk14;138!bcmail-jdk14.jar(src)
+[warn] 	:: net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src)
+[warn] 	:: bouncycastle#bcprov-jdk14;138!bcprov-jdk14.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for default#attari-machine-learning$sources;0.1 compile produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 runtime produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 test produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 provided produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 optional produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 compile-internal produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 runtime-internal produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 test-internal produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 plugin produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 pom produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml
+[debug] 	report for default#attari-machine-learning$sources;0.1 scala-tool produced in /home/rigas/Desktop/Final Year Project/Attari Machine Learning/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml
+[debug] 	resolve done (641ms resolve - 975ms download)

@@ -7,7 +7,7 @@ val map: Map[(Int, Int), String] = Map((1,3) -> "1",(1,4) -> "2", (1,3) -> "3")
 
 map.updated((1,3),"123")
 
-map.updated((23,12), "1234")
+map.updated((23,12), "1234").maxBy(_._1._1)._2
 
 val list = List((1,4), (23,12), (22,52))
 
