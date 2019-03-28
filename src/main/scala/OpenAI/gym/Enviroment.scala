@@ -54,59 +54,65 @@ case class AtariEnvironment(override val instance: EnvInstance) extends Environm
 
 
 
-  override def reset(): ObservationAtari = {
+  override def reset(): Observation = {
     val request = resetEnv(instance.instance_id)
 
     val res = requestToApi(request)
 
-    res match {
+    val obs = res match {
       case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[ObservationAtari], gymClient.timeout.second)
       case _ => throw new Exception("Http response Failed")
     }
 
+    Observation(obs.rgbToGrayscale())
 
   }
 
-  override def step(action: Int, render: Boolean = true): StepReplyAtari = {
+  override def step(action: Int, render: Boolean = true): StepReply = {
 
     val request = stepEnv(instance.instance_id,action,render)
 
     val res = requestToApi(request)
 
-    res match {
+    val stepReply = res match {
       case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[StepReplyAtari], gymClient.timeout.second)
       case _ => throw new Exception("Http response Failed")
     }
+
+    StepReply(stepReply.rgbToGrayscale(),stepReply.reward,stepReply.done,stepReply.info)
   }
+
 
 }
 
 case class ClassicControlEnvironment(override val instance: EnvInstance) extends Environment(instance) {
 
 
-  override def reset(): ObservationClassicControl= {
+  override def reset(): Observation= {
     val request = resetEnv(instance.instance_id)
 
     val res = requestToApi(request)
 
-    res match {
+    val obs = res match {
       case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[ObservationClassicControl], gymClient.timeout.second)
       case _ => throw new Exception("Http response Failed")
     }
 
-
+    Observation(obs.observation)
   }
 
-  override def step(action: Int, render: Boolean = true): StepReplyClassicControl = {
+  override def step(action: Int, render: Boolean = true): StepReply = {
 
     val request = stepEnv(instance.instance_id,action,render)
 
     val res = requestToApi(request)
 
-    res match {
+    val stepReply =res match {
       case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[StepReplyClassicControl], gymClient.timeout.second)
       case _ => throw new Exception("Http response Failed")
     }
+
+    StepReply(stepReply.observation,stepReply.reward,stepReply.done,stepReply.info)
   }
 
 }

@@ -7,9 +7,9 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 
 
 //Non-general Responses
-sealed trait Observation
+case class Observation(observation: List[Double])
 
-sealed trait StepReply
+case class StepReply(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int])
 
 
 
@@ -34,16 +34,24 @@ case class ObservationSpace(info:BoxSpace)
 
 //Classic Control Responses
 
-case class ObservationClassicControl(observation: List[Double]) extends  Observation
+case class ObservationClassicControl(observation: List[Double])
 
-case class StepReplyClassicControl(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply
+case class StepReplyClassicControl(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int])
 
 
 //Atari Responses
+sealed trait AtariObservation{
+  val observation: List[List[(Double,Double,Double)]]
 
-case class ObservationAtari(observation: List[List[(Double,Double,Double)]]) extends Observation
+  def rgbToGrayscale(): List[Double] ={
+    observation.flatMap(x => x.map(tuple => (tuple._1 + tuple._2 + tuple._3)/3))
+  }
+}
 
-case class StepReplyAtari(observation: List[List[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int]) extends StepReply
+case class ObservationAtari(observation: List[List[(Double,Double,Double)]]) extends AtariObservation
+
+case class StepReplyAtari(observation: List[List[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int]) extends AtariObservation
+
 
 //https://doc.akka.io/docs/akka/2.4.5/scala/http/routing-dsl/directives/marshalling-directives/entity.html
 //Unmarshalls the request entity to the given type and passes it to its inner Route

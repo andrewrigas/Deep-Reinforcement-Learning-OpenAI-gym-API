@@ -1,13 +1,16 @@
 package QLearning
 
+
 import OpenAI.gym._
 import scala.util.Random
 
 class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, learning_rate: Double = 0.01, epsilon: Int = 10) {
 
+  //Rename Data types Variables
   type qValue = Double
   type Action = Int
   type Reward = Double
+
   // State is a subtype of Observation
   type State = Observation
   type NextState = Observation
@@ -16,7 +19,7 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   type QValues = Map[(State,Action), qValue]
 
 
-  def Trials(env: Environment,qValues: QValues,trial: Int = 1): QValues = {
+  private def Trials(env: Environment,qValues: QValues,trial: Int = 1): QValues = {
     if(trial >= trials){
       qValues
     }else {
@@ -25,43 +28,27 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
     }
   }
 
-  def Episodes(env: Environment,qValues: QValues,episode: Int = 1): QValues = {
+  private def Episodes(env: Environment,qValues: QValues,episode: Int = 1): QValues = {
 
     def qLearning(currState: Observation,qValues: QValues,done: Boolean): QValues = {
       if (done) {
-        println("Done")
         return qValues
       } else {
         //Get an action using E greedy method
         val action = E_greedy(env,qValues,currState)
 
         // Make an action to the environment
-        val reply = env.step(action,false)
+        val reply = env.step(action,true)
 
 
-
-        val (observe,reward,end,info) = reply match {
-          case StepReplyClassicControl(o,r,d,i) => (o,r,d,i)
-          case StepReplyAtari(o,r,d,i) => (o,r,d,i)
-        }
-
-        val observation = env match {
-          case AtariEnvironment(i) => observe match {
-            case atari: List[List[(Double,Double,Double)]] => ObservationAtari(atari)
-          }
-          case ClassicControlEnvironment(i) => observe match {
-            case classic: List[Double] => ObservationClassicControl(classic)
-          }
-        }
         //Get the next state
-        val nextState = observation
+        val nextState = Observation(reply.observation)
 
-        val newQValues = updateQValues(env,reward,currState,nextState,action,qValues)
+        val newQValues = updateQValues(env,reply.reward,currState,nextState,action,qValues)
         //Set the next State as the current State
 
-        newQValues.foreach(x => println(x._2))
         //Update the value done if the game is over
-        qLearning(nextState, newQValues,end)
+        qLearning(nextState, newQValues,reply.done)
       }
     }
 
@@ -78,7 +65,7 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
   }
 
 
-  def E_greedy(env: Environment,qValues: QValues,currState: Observation): Action = {
+  private def E_greedy(env: Environment,qValues: QValues,currState: Observation): Action = {
 
     if(Random.nextInt(100) <= epsilon){
       //Explore take random Action
@@ -96,12 +83,12 @@ class QLearning(trials: Int = 100,episodes: Int = 1000, gamma: Double = 0.9, lea
     }
   }
 
-  def getQValues(env: Environment,qValues: QValues, currState: Observation): Seq[(qValue,Action)] = {
+  private def getQValues(env: Environment,qValues: QValues, currState: Observation): Seq[(qValue,Action)] = {
     val someRewards: Seq[(Option[qValue], Action)] = for(i <- 1 to env.action_space().info.n ) yield (qValues.get((currState,i)), i)
     someRewards.filter(x => x._1.isDefined).map(t => (t._1.get,t._2))
   }
 
-  def updateQValues(env: Environment,reward: Reward,currState: Observation,nextState: Observation,action: Action,qValues: QValues): QValues ={
+  private def updateQValues(env: Environment,reward: Reward,currState: Observation,nextState: Observation,action: Action,qValues: QValues): QValues ={
     val rewards = getQValues(env,qValues,nextState)
 
     val nextStateMaxQValue = rewards match {

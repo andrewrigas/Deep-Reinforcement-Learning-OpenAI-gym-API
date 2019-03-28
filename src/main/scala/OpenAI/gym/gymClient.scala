@@ -22,7 +22,7 @@ object gymClient {
 
   private implicit val system = ActorSystem.create("system") // Create an Actor System for messages communication
 
-  implicit def materializer: ActorMaterializer = ActorMaterializer()
+  implicit def materializer: ActorMaterializer = ActorMaterializer() //Implicit Materializer use to encode Http Entity responses
 
   val executionContext: ExecutionContextExecutor = system.dispatcher //Implicit dispatcher for future function calls
 

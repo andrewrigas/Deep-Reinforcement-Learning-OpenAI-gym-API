@@ -2,40 +2,32 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/scala/test.sc" line="5" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" line="40" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae2d9bf-9226-4736-80bf-bd7a3ceb83da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_jniloader_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_native_ref_java_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_native_system_java_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_armhf_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_i686_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_osx_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_win_i686_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_win_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_armhf_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_i686_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_osx_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_win_i686_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_win_x86_64_1_1_natives_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_natives_2_12_0_13_2_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1391384fc07c74c21759$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1391384fc07c74c21759.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1391384fc07c74c21759.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1aebd7a584d53c3934f5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1aebd7a584d53c3934f5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1aebd7a584d53c3934f5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$644cb6a443824dc9ff8c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$644cb6a443824dc9ff8c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$644cb6a443824dc9ff8c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7f2f3060f56d3a20b104$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7f2f3060f56d3a20b104.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7f2f3060f56d3a20b104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8615e1231e5fd4c3aac9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8615e1231e5fd4c3aac9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8615e1231e5fd4c3aac9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5fcc0c1944227ab3b0a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5fcc0c1944227ab3b0a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5fcc0c1944227ab3b0a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd91d321be1d649fa833$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd91d321be1d649fa833.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd91d321be1d649fa833.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0016cbef6e9de3880b9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0016cbef6e9de3880b9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0016cbef6e9de3880b9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef1e8113a4a15d57b152$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef1e8113a4a15d57b152.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef1e8113a4a15d57b152.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e285ea99bbddbc77fad2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e285ea99bbddbc77fad2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e285ea99bbddbc77fad2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile-internal.xml" afterDir="false" />
@@ -51,17 +43,42 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/test.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/Attari Machine Learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ActionSpace$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ActionSpace$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/AtariEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/AtariEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/BoxSpace$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/BoxSpace$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/DiscreteSpace$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/DiscreteSpace$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/EnvInstance$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/EnvInstance$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ListEnvs$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ListEnvs$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationSpace$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationSpace$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gym$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gym$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main$delayedInit$body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/test.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" afterDir="false" />
@@ -90,12 +107,18 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-scala-tool.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,6 +136,20 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="232" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -123,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1410">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="e#20#79#0" expanded="true" />
               </folding>
@@ -132,11 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="705">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="e#2#20#0" expanded="true" />
               </folding>
@@ -145,19 +182,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state>
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -165,10 +214,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-661">
-              <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+            <state relative-caret-position="-888">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
-                <element signature="e#19#38#0" expanded="true" />
+                <element signature="e#20#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +226,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="e#21#64#0" expanded="true" />
               </folding>
@@ -189,8 +238,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="73" />
+            <state relative-caret-position="360">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="e#20#84#0" expanded="true" />
               </folding>
@@ -201,8 +250,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="597">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#20#60#0" expanded="true" />
               </folding>
@@ -235,29 +284,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/GymAPI.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymApi.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/layer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/QLearning/as.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="423" />
-    <option name="y" value="143" />
-    <option name="width" value="1398" />
-    <option name="height" value="789" />
+    <option name="x" value="468" />
+    <option name="y" value="147" />
+    <option name="width" value="1169" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -267,6 +316,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,14 +377,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552684720266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553723157129" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -408,8 +457,14 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="80295830" />
+        <entry key="$PROJECT_DIR$" value="3104245467000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1836578865" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -456,6 +511,17 @@
       <workItem from="1552520117723" duration="749000" />
       <workItem from="1552574794413" duration="13124000" />
       <workItem from="1552655294482" duration="7723000" />
+      <workItem from="1552754131784" duration="2779000" />
+      <workItem from="1552851137066" duration="1236000" />
+      <workItem from="1552866012494" duration="31000" />
+      <workItem from="1553144764321" duration="2125000" />
+      <workItem from="1553178959340" duration="10015000" />
+      <workItem from="1553276228204" duration="3303000" />
+      <workItem from="1553362465413" duration="2489000" />
+      <workItem from="1553447996546" duration="3421000" />
+      <workItem from="1553523767548" duration="12638000" />
+      <workItem from="1553644807610" duration="4655000" />
+      <workItem from="1553717356820" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1552516123710</created>
@@ -468,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135908000" />
+    <option name="totallyTimeSpent" value="183011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +549,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11510792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15107913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -492,7 +558,42 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49363586" weight="0.24838012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49363586" visible="true" weight="0.26673865" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853158" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.35421166" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32634032" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32829374" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50636417" side_tool="true" weight="0.24838012" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49265787" weight="0.29157668" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32988507" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3291714" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1396648" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49363586" visible="true" weight="0.24827586" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853158" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +603,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50636417" side_tool="true" weight="0.24838012" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49265787" weight="0.2948164" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49265787" weight="0.29425287" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -512,42 +613,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="sbt" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15716657" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31101513" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.35961124" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3291714" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
@@ -584,13 +650,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Atari.scala" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/layer.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,10 +658,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/as.scala" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.2-sources.jar!/breeze/linalg/NumericOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="277" column="12" selection-start-line="277" selection-start-column="12" selection-end-line="277" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.2-sources.jar!/breeze/stats/distributions/Gaussian.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.2-sources.jar!/breeze/numerics/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="654" column="28" selection-start-line="654" selection-start-column="28" selection-end-line="654" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.attach_pid28552" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.2-sources.jar!/breeze/linalg/functions/softmax.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#20#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="e#21#64#0" expanded="true" />
           </folding>
@@ -611,20 +725,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="73" />
+        <state relative-caret-position="360">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="e#20#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#20#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -636,57 +740,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/as.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#20#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="597">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
-            <element signature="e#20#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#2#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding>
-            <element signature="e#19#38#0" expanded="true" />
+            <element signature="e#20#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

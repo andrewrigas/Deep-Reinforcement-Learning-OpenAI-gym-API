@@ -5,6 +5,7 @@ import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
 import akka.http.scaladsl.unmarshalling.Unmarshal
 
 import scala.concurrent.duration._
+
 import OpenAI.gym.gymClient.materializer
 
 import scala.concurrent.Await
@@ -44,11 +45,8 @@ object gym {
       //Create New Atari Environment with EnvInstance
       new AtariEnvironment(EnvInstance)
     }
-
-
-
-
   }
+
 
   def getListEnvs(): ListEnvs = {
     //Create listEnvs request
@@ -61,6 +59,7 @@ object gym {
       case HttpResponse(StatusCodes.OK, headers, entity, _) => Await.result(Unmarshal(entity).to[ListEnvs], gymClient.timeout.second)
     }
   }
+
 
   def shutDown(): Unit = {
     val request = shutdown()
