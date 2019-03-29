@@ -27,7 +27,7 @@ class Model {
   //Initialize Weights List
   private var weights: List[Weights] = List()
 
-  private def getRandomWeightsToLayers(model: List[Layer]): Unit = {
+  private def getRandomWeightsToLayers(model: List[Layer]): Unit ={
 
     def getWeights(model: List[Layer]): List[Weights] ={
       model match {
@@ -37,7 +37,6 @@ class Model {
         case c :: r :: xs => DenseMatrix.rand(r.getNeurons(),c.getNeuronsWithBias(),GaussianDistribution)  :: getWeights(model.tail)
       }
     }
-
     //Store them in our weights variable
     weights = getWeights(model)
   }
@@ -60,14 +59,10 @@ class Model {
 
       //On The 3rd layer get Random Weights
       getRandomWeightsToLayers(model.toList)
-
     }else if(model.length < 2){
-
       //Add layer
       model += layer
-
     } else{
-
       println("Supported layers : 3")
     }
   }
@@ -77,10 +72,12 @@ class Model {
     val immutableWeights = weights
 
     //Get Prediction - Forward Propagation
-    val prediction = forwardProp(getModel,data,immutableWeights)
+    implicit val prediction = forwardProp(getModel,data,immutableWeights)
 
-    val sumSquaredError = sum(SquaredError(prediction,target)(::,*))
+    val sqrError = SquaredError(prediction,target)
+    val sumSqrError = sum(sqrError(::,*))
 
+    val newWeights = backProp(getModel,prediction,target,immutableWeights)
   }
 
   //Forward Propagation
@@ -100,18 +97,36 @@ class Model {
     }
   }
 
-  private def backProp() ={
+  private def backProp(model: List[Layer], prediction: NNLayer, target: NNLayer, weights: List[Weights]): List[Weights] = {
 
+    def GradientDescent(model: List[Layer]): (DenseMatrix[Double],DenseMatrix[Double]) = {
+      ???
+    }
+    ???
   }
 
-  private def SquaredError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] = {
+  //Derivative of The Error function => Gradient Descent
+  def GradError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] = prediction - target
+
+  private def GradRelu(net: DenseMatrix[Double], grad: DenseMatrix[Double]): DenseMatrix[Double] = {
+    //Create a Matrix with zeros
+    val z = DenseMatrix.zeros[Double](net.rows,net.cols)
+    //Replace each negative value in net Matrix with 0 in grand Matrix
+    where(net <:< z,grad,z)
+  }
+
+  //Derivative of The Sigmoid function => Gradient Descent
+  def GradSigmoid(net: DenseMatrix[Double]): DenseMatrix[Double] = net *:* (1.0 - net)
+
+  private def SquaredError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] ={
     //Calculate the squared cost
     val cost = target -:- prediction
     val sqrCost = pow(cost,2)
     sqrCost /:/ 2.0
   }
+
   //Add Bias to the Matrix Function
-  private def addBiasToMatrix(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] = {
+  private def addBiasToMatrix(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] ={
     //Check if that layer has a bias bool true and add add 1.0 to the row
     if(layer.getBias())
     {
@@ -122,8 +137,11 @@ class Model {
     }
   }
 
+  //Remove last row 0 to -1 => 0 to the end  0 to -2 => 0 to end - 1
+  private def removeBiasMatrix(matrix: DenseMatrix[Double]): DenseMatrix[Double] = matrix(0 to -2,::)
+
   //Check which activation function will activate Neurons
-  private def activation(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] = {
+  private def activation(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] ={
     layer.getActivation() match {
       case "relu" => reluActivation(data)
       case "sigmoid" => sigmoidActivation(data)
@@ -132,7 +150,7 @@ class Model {
   }
 
   //Relu Activation Layer
-  private def reluActivation(layer: NNLayer): NNLayer={
+  private def reluActivation(layer: NNLayer): NNLayer ={
     //Create a Matrix with zeros
       val z = DenseMatrix.zeros[Double](layer.rows,layer.cols)
     //Store every variable that is greater than zero

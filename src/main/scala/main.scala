@@ -42,14 +42,22 @@ object main extends App{
   model.addToModel(outputLayer)
 
   val x1 =  DenseMatrix.rand[Double](4,1) + 2.0
-  val x2 =  DenseMatrix.rand[Double](2,4) + 1.4
+  val x2 =  DenseMatrix.rand[Double](2,4) - 0.4
+  val x3 =  DenseMatrix.rand[Double](2,4) - 0.4
+  val add = DenseMatrix.ones[Double](1,x2.cols)
+  val newc = DenseMatrix.vertcat(x2,add)
+  val ren: DenseMatrix[Double] = newc(0 to -2,::)
+  val fa = 1.0 - ren
   val b = x2 * x1
-
+  val z = DenseMatrix.zeros[Double](2,4)
+  val asd = where(x2 >:> z,x3,z)
   val g = sum(x2(::,*))
 
   val d = DenseMatrix.zeros[Double](2,4)
 
   val bia = where(x2 >:> d,x2,d)
+
+
 
   val f = sigmoid(x1)
   val s = pow(x1,2)
@@ -61,6 +69,9 @@ object main extends App{
   println(f)
   println(s)
   println(g)
+  println(ren)
+  println(fa)
+  println(asd)
   println(model)
 
 
