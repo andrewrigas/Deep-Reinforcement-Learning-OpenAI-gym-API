@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190327204855"/>
+		date="20190329200649"/>
 	<dependencies>
 		<module organisation="org.scalanlp" name="breeze-natives_2.12">
 			<revision name="0.13.2" status="release" pubdate="20170801050458" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
@@ -775,13 +775,6 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/home/rigas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.github.fommil.netlib" name="all_2.12">
-			<revision name="1.1.2" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
-				<caller organisation="default" name="attari-machine-learning_2.12" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
-				<artifacts>
 				</artifacts>
 			</revision>
 		</module>

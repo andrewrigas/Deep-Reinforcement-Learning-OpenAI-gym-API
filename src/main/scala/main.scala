@@ -29,50 +29,26 @@ object main extends App{
   val model = new Model
 
   //Input Layer
-  val inputLayer = new Layer(3,true,"relu")
+  val inputLayer = Layer(3,true,"relu")
   //Hidden Layer
-  val hiddenLayer = new Layer(2,true,"sigmoid")
+  val hidden1Layer = Layer(2,true)
+
+  val hidden2Layer = Layer(2,true)
   //Output Layer
-  val outputLayer = new Layer(3)
+  val outputLayer = Layer(3)
 
 
   //Add to our model each layer
   model.addToModel(inputLayer)
-  model.addToModel(hiddenLayer)
+  model.addToModel(hidden1Layer)
+  model.addToModel(hidden2Layer)
   model.addToModel(outputLayer)
 
-  val x1 =  DenseMatrix.rand[Double](4,1) + 2.0
-  val x2 =  DenseMatrix.rand[Double](2,4) - 0.4
-  val x3 =  DenseMatrix.rand[Double](2,4) - 0.4
-  val add = DenseMatrix.ones[Double](1,x2.cols)
-  val newc = DenseMatrix.vertcat(x2,add)
-  val ren: DenseMatrix[Double] = newc(0 to -2,::)
-  val fa = 1.0 - ren
-  val b = x2 * x1
-  val z = DenseMatrix.zeros[Double](2,4)
-  val asd = where(x2 >:> z,x3,z)
-  val g = sum(x2(::,*))
+  model.buildModel()
 
-  val d = DenseMatrix.zeros[Double](2,4)
-
-  val bia = where(x2 >:> d,x2,d)
-
-
-
-  val f = sigmoid(x1)
-  val s = pow(x1,2)
-  println(x1)
-  println(x2)
-  println(b)
-  println(bia)
-  println(d)
-  println(f)
-  println(s)
-  println(g)
-  println(ren)
-  println(fa)
-  println(asd)
+  model.getWeights.foreach(x => println(x))
   println(model)
+  model.fit(DenseMatrix.rand[Double](3,1),DenseMatrix.rand[Double](3,1))
 
 
 

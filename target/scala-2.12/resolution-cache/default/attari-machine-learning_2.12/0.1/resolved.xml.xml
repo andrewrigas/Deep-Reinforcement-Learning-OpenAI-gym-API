@@ -4,7 +4,7 @@
 		module="attari-machine-learning_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190327204855"
+		publication="20190329200649"
 	>
 		<description>
 		Attari Machine Learning
@@ -43,8 +43,5 @@
 		<dependency org="org.scalanlp" name="breeze_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-viz_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-natives_2.12" rev="0.13.2" conf="compile->default(compile)"/>
-		<dependency org="com.github.fommil.netlib" name="all_2.12" rev="1.1.2" conf="compile->default(compile)">
-			<artifact name="all_2.12" type="pom" ext="pom" conf="pom"/>
-		</dependency>
 	</dependencies>
 </ivy-module>

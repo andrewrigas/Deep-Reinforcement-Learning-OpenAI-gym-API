@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190327000210"/>
+		date="20190402213237"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.12">
 			<revision name="2.5.12" status="release" pubdate="20180413065039" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="54">
@@ -63,7 +63,7 @@
 				<metadata-artifact status="no" details="" size="3367" time="0" location="/home/rigas/.ivy2/cache/org.scalanlp/breeze-natives_2.12/ivy-0.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/0.13.2/breeze-natives_2.12-0.13.2.pom"/>
 				<caller organisation="default" name="attari-machine-learning$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="breeze-natives_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="255" time="672" location="/home/rigas/.ivy2/cache/org.scalanlp/breeze-natives_2.12/srcs/breeze-natives_2.12-0.13.2-sources.jar">
+					<artifact name="breeze-natives_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="255" time="0" location="/home/rigas/.ivy2/cache/org.scalanlp/breeze-natives_2.12/srcs/breeze-natives_2.12-0.13.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/0.13.2/breeze-natives_2.12-0.13.2-sources.jar"/>
 					</artifact>
 				</artifacts>

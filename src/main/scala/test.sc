@@ -16,3 +16,4 @@ for(i <- 1 to 5) yield map.get(i,i)
 val x = list.max._1
 
 
+val s = list.dropRight(1)

@@ -19,7 +19,7 @@ class Model {
 
 
   //Set Learning Rate
-  private val learning_rate: LearningRate = 0.001
+  private val learning_rate: LearningRate = 0.0001
 
   //Create an Empty Model
   private var model: ListBuffer[Layer] = ListBuffer()
@@ -34,7 +34,7 @@ class Model {
         case Nil => Nil
         case x :: Nil => Nil
           //Get random Weights from the first layer to the output
-        case c :: r :: xs => DenseMatrix.rand(r.getNeurons(),c.getNeuronsWithBias(),GaussianDistribution)  :: getWeights(model.tail)
+        case c :: r :: xs => DenseMatrix.rand(r.getNeurons(),c.getNeuronsWithBias(),GaussianDistribution) :: getWeights(model.tail)
       }
     }
     //Store them in our weights variable
@@ -46,73 +46,132 @@ class Model {
 
   //Add parameters to the model
   def addToModel(dim: Int,bias: Boolean = false,nextLayerActivation:String = "none"): Unit ={
-    val layer = new Layer(dim,bias,nextLayerActivation)
+    val layer = Layer(dim,bias,nextLayerActivation)
     this.addToModel(layer)
   }
 
   //Add layer to the model
   def addToModel(layer: Layer): Unit ={
-
-    if(model.length == 2){
-      //Add Last Layer
       model += layer
+  }
 
-      //On The 3rd layer get Random Weights
-      getRandomWeightsToLayers(model.toList)
-    }else if(model.length < 2){
-      //Add layer
-      model += layer
-    } else{
-      println("Supported layers : 3")
-    }
+  def buildModel(): Unit ={
+    val lastLayer = model.last
+    val endLayer = Layer(lastLayer.dim,lastLayer.bias,"end")
+    model = model.dropRight(1)
+    model += endLayer
+    getRandomWeightsToLayers(getModel)
   }
 
   def fit(data: DenseMatrix[Double],target: DenseMatrix[Double]):Unit ={
     //Forward-Propagation
     val immutableWeights = weights
 
-    //Get Prediction - Forward Propagation
-    implicit val prediction = forwardProp(getModel,data,immutableWeights)
+    //Get Prediction and NetworkLayers - Forward Propagation
+    val netLayers= forwardProp(getModel,data,Nil,immutableWeights)
 
-    val sqrError = SquaredError(prediction,target)
+    netLayers.reverse.foreach(x => println(x))
+    println("Target:\n"+target)
+
+    val sqrError = SquaredError(netLayers.head.activeNet,target)
     val sumSqrError = sum(sqrError(::,*))
 
-    val newWeights = backProp(getModel,prediction,target,immutableWeights)
+    backProp(getModel,netLayers,target,immutableWeights)
   }
 
   //Forward Propagation
-  private def forwardProp(model: List[Layer],net: DenseMatrix[Double],weights: List[Weights]): DenseMatrix[Double] ={
+  private def forwardProp(model: List[Layer],net: DenseMatrix[Double],network: List[NetworkLayer],weights: List[Weights]): List[NetworkLayer] ={
     weights match {
-      case Nil => net
+      case Nil => network
       case w :: ws => {
         //Add Bias to the Current Layer Neurons Matrix
-        val newNet = addBiasToMatrix(model.head,net)
+        val biasNet = addBiasToMatrix(model.head,net)
         //Matrix Matrix Multiplication with Weights and Current Net
-        val nextNet = w * newNet
+        val nextNet = w * biasNet
         //Activate Neurons
         val activeNet = activation(model.head,nextNet)
+
+        //Create new network Layer
+        val newNetLayer = NetworkLayer(biasNet,nextNet,activeNet)
+        //Add in the list
+        val newNetwork =  newNetLayer :: network
         //Re-call function until weights are null
-        forwardProp(model.tail,activeNet,ws)
+        forwardProp(model.tail,activeNet,newNetwork,ws)
       }
     }
   }
 
-  private def backProp(model: List[Layer], prediction: NNLayer, target: NNLayer, weights: List[Weights]): List[Weights] = {
+  private def backProp(model: List[Layer], network: List[NetworkLayer], target: NNLayer, weights: List[Weights])(): Unit = {
 
-    def GradientDescent(model: List[Layer]): (DenseMatrix[Double],DenseMatrix[Double]) = {
-      ???
+    def GradientDescent(model: List[Layer],network: List[NetworkLayer],grad: DenseMatrix[Double],weights: List[Weights],DW: List[DenseMatrix[Double]]): List[DenseMatrix[Double]] = {
+      network match {
+        case Nil => DW
+        case x => {
+          //Check if is the last Layer of NN
+          if(model.head.nextLayerActivation == "end"){
+
+            val net = network.head
+            val currLayer = model.tail.head
+
+            val newGrad = grad *:* getGrad(currLayer,net.activeNet)
+
+            val dW = newGrad * net.biasNet.t
+
+            GradientDescent(model.tail,network.tail,newGrad,weights,dW :: DW)
+
+          }  else {
+
+            val nextLayer = model.head
+            val currLayer = model.tail.head
+            val w = weights.head
+            val net = network.head
+
+            val wHat = removeWeightsBias(nextLayer,w)
+
+            val newGrad = (wHat.t * grad) *:* getGrad(currLayer,net.activeNet)
+
+            val dW = newGrad * net.biasNet.t
+
+            GradientDescent(model.tail,network.tail,newGrad,weights.tail,dW :: DW)
+
+          }
+
+        }
+      }
     }
-    ???
+
+    val grad_error = GradError(network.head.activeNet,target)
+
+
+    val newModel = getModel.reverse
+
+    val derivativesW = GradientDescent(newModel,network,grad_error,weights.reverse,Nil)
+
+    derivativesW.foreach(x => println("W :\n" + x))
+  }
+
+  private def removeWeightsBias(layer: Layer,w: DenseMatrix[Double]):DenseMatrix[Double] ={
+    if(layer.bias) removeBiasMatrix(w) else w
+  }
+
+  private def getGrad(layer: Layer,net: DenseMatrix[Double]): DenseMatrix[Double] ={
+    layer.nextLayerActivation match {
+      case "relu" => GradRelu(net)
+      case "sigmoid" => GradSigmoid(net)
+      case _ => DenseMatrix.ones[Double](net.rows,net.cols)
+    }
   }
 
   //Derivative of The Error function => Gradient Descent
-  def GradError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] = prediction - target
+  private def GradError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] = prediction - target
 
-  private def GradRelu(net: DenseMatrix[Double], grad: DenseMatrix[Double]): DenseMatrix[Double] = {
+  //Derivative of The Relu function => Gradient Descent
+  private def GradRelu(net: DenseMatrix[Double]): DenseMatrix[Double] = {
     //Create a Matrix with zeros
     val z = DenseMatrix.zeros[Double](net.rows,net.cols)
+    val o = DenseMatrix.ones[Double](net.rows,net.cols)
     //Replace each negative value in net Matrix with 0 in grand Matrix
-    where(net <:< z,grad,z)
+    where(net <:< z,o,z)
   }
 
   //Derivative of The Sigmoid function => Gradient Descent
@@ -128,7 +187,7 @@ class Model {
   //Add Bias to the Matrix Function
   private def addBiasToMatrix(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] ={
     //Check if that layer has a bias bool true and add add 1.0 to the row
-    if(layer.getBias())
+    if(layer.bias)
     {
       val add = DenseMatrix.ones[Double](1,data.cols)
       DenseMatrix.vertcat(data,add)
@@ -138,11 +197,11 @@ class Model {
   }
 
   //Remove last row 0 to -1 => 0 to the end  0 to -2 => 0 to end - 1
-  private def removeBiasMatrix(matrix: DenseMatrix[Double]): DenseMatrix[Double] = matrix(0 to -2,::)
+  private def removeBiasMatrix(matrix: DenseMatrix[Double]): DenseMatrix[Double] = matrix(::,0 to -2)
 
   //Check which activation function will activate Neurons
   private def activation(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] ={
-    layer.getActivation() match {
+    layer.nextLayerActivation match {
       case "relu" => reluActivation(data)
       case "sigmoid" => sigmoidActivation(data)
       case _ => data
@@ -169,12 +228,17 @@ class Model {
   //Get the model transform it to a list
   def getModel = model.toList
 
+  def getWeights = weights
   //Override method for print
   override def toString: String = (for((layer,i) <- getModel.view.zipWithIndex) yield s"Layer: ${i+1}\n" + layer.toString).mkString("\n")
 }
 
+case class NetworkLayer(biasNet: DenseMatrix[Double],nextNet: DenseMatrix[Double],activeNet: DenseMatrix[Double]){
+  //Override method for print
+  override def toString: String = "BiasNet:\n" + biasNet +"\nNextNet:\n" + nextNet + "\nActiveNet:\n" + activeNet
+}
 
-class Layer(dim: Int,bias: Boolean = false,nextLayerActivation: String = "none"){
+case class Layer(dim: Int,bias: Boolean = false,nextLayerActivation: String = "none"){
 
   // Get layers without bias
   def getNeurons(): Int= {
@@ -188,16 +252,6 @@ class Layer(dim: Int,bias: Boolean = false,nextLayerActivation: String = "none")
     }else {
       dim
     }
-  }
-
-  //Return Bool for Bias
-  def getBias() ={
-    bias
-  }
-
-  //Return Activation Method
-  def getActivation():String = {
-    nextLayerActivation
   }
 
   //Override method for print

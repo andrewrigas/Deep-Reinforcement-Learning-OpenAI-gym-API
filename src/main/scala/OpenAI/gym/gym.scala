@@ -12,6 +12,7 @@ import scala.concurrent.Await
 
 object gym {
 
+  //Classic Control Enviroments
   private val classicControl = List("Acrobot","CartPole","MountainCar","MountainCar","Pendulum")
 
 

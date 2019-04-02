@@ -43,6 +43,7 @@ case class StepReplyClassicControl(observation: List[Double], reward: Double, do
 sealed trait AtariObservation{
   val observation: List[List[(Double,Double,Double)]]
 
+  //Transform RGB values to Grayscale using average method
   def rgbToGrayscale(): List[Double] ={
     observation.flatMap(x => x.map(tuple => (tuple._1 + tuple._2 + tuple._3)/3))
   }
