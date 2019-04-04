@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190329200649"/>
+		date="20190403232154"/>
 	<dependencies>
 		<module organisation="org.scalanlp" name="breeze-natives_2.12">
 			<revision name="0.13.2" status="release" pubdate="20170801050458" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">

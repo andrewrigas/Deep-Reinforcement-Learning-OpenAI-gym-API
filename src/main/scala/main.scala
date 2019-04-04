@@ -30,9 +30,9 @@ object main extends App{
 
   //Input Layer
   val inputLayer = Layer(3,true,"relu")
-  //Hidden Layer
-  val hidden1Layer = Layer(2,true)
-
+  //1st Hidden Layer
+  val hidden1Layer = Layer(2,true,"relu")
+  //2nd Hidden Layer
   val hidden2Layer = Layer(2,true)
   //Output Layer
   val outputLayer = Layer(3)
@@ -44,6 +44,7 @@ object main extends App{
   model.addToModel(hidden2Layer)
   model.addToModel(outputLayer)
 
+  //Build the model
   model.buildModel()
 
   model.getWeights.foreach(x => println(x))

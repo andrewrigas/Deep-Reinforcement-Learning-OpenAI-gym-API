@@ -4,7 +4,7 @@
 		module="attari-machine-learning_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190329200649"
+		publication="20190403232153"
 	>
 		<description>
 		Attari Machine Learning
@@ -43,5 +43,6 @@
 		<dependency org="org.scalanlp" name="breeze_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-viz_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-natives_2.12" rev="0.13.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="1.14.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

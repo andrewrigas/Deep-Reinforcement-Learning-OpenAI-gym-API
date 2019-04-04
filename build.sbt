@@ -25,5 +25,6 @@ libraryDependencies  ++= Seq(
   "org.scalanlp" %% "breeze-natives" % "0.13.2"
 )
 
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
 
 

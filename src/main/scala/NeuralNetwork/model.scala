@@ -56,10 +56,15 @@ class Model {
   }
 
   def buildModel(): Unit ={
+    //Get Last Layer
     val lastLayer = model.last
+    //Replace activation layer with end
     val endLayer = Layer(lastLayer.dim,lastLayer.bias,"end")
+    //Drop last
     model = model.dropRight(1)
+    //Add new layer
     model += endLayer
+    //Get Weights in each layer
     getRandomWeightsToLayers(getModel)
   }
 
@@ -70,12 +75,12 @@ class Model {
     //Get Prediction and NetworkLayers - Forward Propagation
     val netLayers= forwardProp(getModel,data,Nil,immutableWeights)
 
-    netLayers.reverse.foreach(x => println(x))
-    println("Target:\n"+target)
-
+    //Calculate Squared Error
     val sqrError = SquaredError(netLayers.head.activeNet,target)
+    //Get Sum off all rows
     val sumSqrError = sum(sqrError(::,*))
 
+    //Gradient Descent Train Weights
     backProp(getModel,netLayers,target,immutableWeights)
   }
 
@@ -109,29 +114,40 @@ class Model {
         case x => {
           //Check if is the last Layer of NN
           if(model.head.nextLayerActivation == "end"){
-
+            //Get first net layer
             val net = network.head
+            //Get last-1 layer
             val currLayer = model.tail.head
-
+            //Calculate the new gradient
             val newGrad = grad *:* getGrad(currLayer,net.activeNet)
 
+            //Calculate the derivative of the first layer
             val dW = newGrad * net.biasNet.t
 
+            //Recall function and remove
             GradientDescent(model.tail,network.tail,newGrad,weights,dW :: DW)
 
           }  else {
 
+            //Get next layer
             val nextLayer = model.head
+            //Current Layer
             val currLayer = model.tail.head
+            //Weight of the next layer
             val w = weights.head
+            //Actual network layer predictions
             val net = network.head
 
+            //Remove bias weights values if exist
             val wHat = removeWeightsBias(nextLayer,w)
 
+            //Calculate New Derivative
             val newGrad = (wHat.t * grad) *:* getGrad(currLayer,net.activeNet)
 
+            //Calculate derivative of the current layer
             val dW = newGrad * net.biasNet.t
 
+            //Recall function set new grad and pop model ,network and weights last elements
             GradientDescent(model.tail,network.tail,newGrad,weights.tail,dW :: DW)
 
           }
@@ -139,22 +155,22 @@ class Model {
         }
       }
     }
-
+    //Get derivative of error function
     val grad_error = GradError(network.head.activeNet,target)
-
-
+    //Reverse Model
     val newModel = getModel.reverse
-
+    //Call gradientDescent and get all derivatives for all weights
     val derivativesW = GradientDescent(newModel,network,grad_error,weights.reverse,Nil)
 
-    derivativesW.foreach(x => println("W :\n" + x))
   }
 
   private def removeWeightsBias(layer: Layer,w: DenseMatrix[Double]):DenseMatrix[Double] ={
+    //Remove last column if the next layer has a bias
     if(layer.bias) removeBiasMatrix(w) else w
   }
 
   private def getGrad(layer: Layer,net: DenseMatrix[Double]): DenseMatrix[Double] ={
+    //Return Derivative of activation function
     layer.nextLayerActivation match {
       case "relu" => GradRelu(net)
       case "sigmoid" => GradSigmoid(net)
