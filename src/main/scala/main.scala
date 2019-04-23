@@ -1,58 +1,56 @@
 
 
+import java.io.File
+
 import Agent.Agent
 import OpenAI.gym._
+import akka.actor.Props
+import AkkaActors.ExecuteAgent
 import QLearning.QLearning
-import NeuralNetwork._
-import breeze.linalg._
-import breeze.numerics._
-import scala.concurrent.duration.Duration
 
-import scala.concurrent.{Await,Future}
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types._
+import org.apache.spark.sql._
 
 object main extends App{
 
-//  val env = gym.make("CartPole-v1")
-//
-//  val state_size = env.observation_space().info.shape
-//
-//  val action_size = env.action_space().info.n
-//
-//  env.reset()
-//
-//  val agent = new Agent(state_size,action_size)
-//
-//  val qlearner = new QLearning(10,100,0.9,0.01,90)
-//
-//  qlearner.runQlearning(env)
-
-  val model = new Model
-
-  //Input Layer
-  val inputLayer = Layer(3,true,"relu")
-  //1st Hidden Layer
-  val hidden1Layer = Layer(2,true,"relu")
-  //2nd Hidden Layer
-  val hidden2Layer = Layer(2,true)
-  //Output Layer
-  val outputLayer = Layer(3)
+  //Create or get a SparkSession instance
+  implicit val spark: SparkSession =
+    SparkSession
+      .builder()
+      .appName("Total cost")
+      .config("spark.master", "local")
+      .getOrCreate()
 
 
-  //Add to our model each layer
-  model.addToModel(inputLayer)
-  model.addToModel(hidden1Layer)
-  model.addToModel(hidden2Layer)
-  model.addToModel(outputLayer)
+  //Create an Atari Environment
+  val atariEnv = gym.make("Boxing-v0")
 
-  //Build the model
-  model.buildModel()
+  //Create a Classic Control Environment
+  val classicControlEnv = gym.make("Acrobot-v1")
 
-  model.getWeights.foreach(x => println(x))
-  println(model)
-  model.fit(DenseMatrix.rand[Double](3,1),DenseMatrix.rand[Double](3,1))
+  //Get Akka actor System
+  val system = gymClient.system
 
+  //Atari Actor
+  val atariActor = system.actorOf(Props(new ExecuteAgent(100,5000)),"AtariActor")
 
+  //Classic Control Actor
+  val classicControlActor = system.actorOf(Props(new ExecuteAgent(1000,5000)),"ClassicControlActor")
 
-//  gym.shutDown() //Drop Python Server API
-//  gymClient.terminate // Terminate Actor System
+  //Create an Atari Agent
+  val atariAgent = Agent(atariEnv)
+
+  //Create a Classic Control Agent
+  val classicControlAgent = Agent(classicControlEnv)
+
+  //Bang AtariAgent
+  atariActor ! atariAgent
+
+  //Bang ClassicControlAgent
+  classicControlActor ! classicControlAgent
+
+   //gym.shutDown() //Drop Python Server API
+   //system.terminate // Terminate Actor System
 }

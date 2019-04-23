@@ -5,18 +5,19 @@ import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
 import akka.http.scaladsl.unmarshalling.Unmarshal
 
 import scala.concurrent.duration._
-
 import OpenAI.gym.gymClient.materializer
-
 import scala.concurrent.Await
-
+import org.apache.spark.sql.SparkSession
 object gym {
+
+  //val conf = new SparkConf().setAppName("DeepReinforcment").setMaster("local")
+  //implicit val sc= new SparkContext(conf)
 
   //Classic Control Enviroments
   private val classicControl = List("Acrobot","CartPole","MountainCar","MountainCar","Pendulum")
 
 
-  def make(env: String): Environment = {
+  def make(env: String)(implicit spark: SparkSession): Environment = {
 
     //Create Environment request
     val request: createEnv = createEnv(env)
@@ -34,7 +35,7 @@ object gym {
       }
 
       //Create New Classic Environment with EnvInstance
-      new ClassicControlEnvironment(EnvInstance)
+      ClassicControlEnvironment(EnvInstance)
 
     } else {
       implicit val EnvInstance = res match {
@@ -44,7 +45,7 @@ object gym {
       }
 
       //Create New Atari Environment with EnvInstance
-      new AtariEnvironment(EnvInstance)
+      AtariEnvironment(EnvInstance)
     }
   }
 

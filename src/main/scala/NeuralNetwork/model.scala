@@ -1,13 +1,14 @@
 package NeuralNetwork
 
+
 import breeze.linalg._
 import breeze.numerics._
 import breeze.stats.distributions._
-import org.apache.commons.io.filefilter.FalseFileFilter
 
 import scala.collection.mutable.ListBuffer
 
 class Model {
+
 
   //Rename Data types Variables
   type Weight = Double
@@ -27,13 +28,14 @@ class Model {
   //Initialize Weights List
   private var weights: List[Weights] = List()
 
+
   private def getRandomWeightsToLayers(model: List[Layer]): Unit ={
 
     def getWeights(model: List[Layer]): List[Weights] ={
       model match {
         case Nil => Nil
         case x :: Nil => Nil
-          //Get random Weights from the first layer to the output
+        //Get random Weights from the first layer to the output
         case c :: r :: xs => DenseMatrix.rand(r.getNeurons(),c.getNeuronsWithBias(),GaussianDistribution) :: getWeights(model.tail)
       }
     }
@@ -55,6 +57,8 @@ class Model {
       model += layer
   }
 
+
+
   def buildModel(): Unit ={
     //Get Last Layer
     val lastLayer = model.last
@@ -68,24 +72,54 @@ class Model {
     getRandomWeightsToLayers(getModel)
   }
 
-  def fit(data: DenseMatrix[Double],target: DenseMatrix[Double]):Unit ={
-    //Forward-Propagation
-    val immutableWeights = weights
-
+  def pretict(state: DenseMatrix[Double]): DenseMatrix[Double] = {
     //Get Prediction and NetworkLayers - Forward Propagation
-    val netLayers= forwardProp(getModel,data,Nil,immutableWeights)
+    val netLayers= forwardProp(state)
 
-    //Calculate Squared Error
-    val sqrError = SquaredError(netLayers.head.activeNet,target)
-    //Get Sum off all rows
-    val sumSqrError = sum(sqrError(::,*))
-
-    //Gradient Descent Train Weights
-    backProp(getModel,netLayers,target,immutableWeights)
+    //Return Last Layer
+    netLayers.head.activeNet
   }
 
+
+
+
+  def fit(data: DenseMatrix[Double],target: DenseMatrix[Double],epochs: Int):Unit ={
+
+    val immutableWeights = weights
+
+    def train(immutableWeights: List[DenseMatrix[Double]],epochs: Int,counter: Int = 0): List[DenseMatrix[Double]] ={
+      if(counter < epochs){
+        //Get Prediction and NetworkLayers - Forward Propagation
+        val netLayers= forwardProp(data,immutableWeights)
+
+        //Calculate Squared Error
+        val sqrError = SquaredError(netLayers.head.activeNet,target)
+        //Get Sum off all rows
+        val sumSqrError = sum(sqrError(::,*))
+
+        //Gradient Descent Train Weights
+        val dW = backProp(netLayers,target,immutableWeights)
+
+        //Store new weights
+        val newWeights = for((weights, dw) <- immutableWeights zip dW) yield weights - (learning_rate *:* dw)
+
+        //Call again set counter +1
+        train(newWeights,epochs,counter+1)
+
+      }else {
+        //Return final trained weights
+        immutableWeights
+      }
+
+    }
+    //Store new Weights
+    weights = train(immutableWeights,epochs)
+
+  }
+
+
   //Forward Propagation
-  private def forwardProp(model: List[Layer],net: DenseMatrix[Double],network: List[NetworkLayer],weights: List[Weights]): List[NetworkLayer] ={
+  private def forwardProp(net: DenseMatrix[Double],weights: List[DenseMatrix[Double]] = weights,network: List[NetworkLayer] = Nil,model: List[Layer] = getModel): List[NetworkLayer] ={
     weights match {
       case Nil => network
       case w :: ws => {
@@ -95,20 +129,19 @@ class Model {
         val nextNet = w * biasNet
         //Activate Neurons
         val activeNet = activation(model.head,nextNet)
-
         //Create new network Layer
         val newNetLayer = NetworkLayer(biasNet,nextNet,activeNet)
         //Add in the list
         val newNetwork =  newNetLayer :: network
         //Re-call function until weights are null
-        forwardProp(model.tail,activeNet,newNetwork,ws)
+        forwardProp(activeNet,ws,newNetwork,model.tail)
       }
     }
   }
 
-  private def backProp(model: List[Layer], network: List[NetworkLayer], target: NNLayer, weights: List[Weights])(): Unit = {
+  private def backProp(network: List[NetworkLayer], target: DenseMatrix[Double], weights: List[DenseMatrix[Double]],model: List[Layer] = getModel)(): List[DenseMatrix[Double]] = {
 
-    def GradientDescent(model: List[Layer],network: List[NetworkLayer],grad: DenseMatrix[Double],weights: List[Weights],DW: List[DenseMatrix[Double]]): List[DenseMatrix[Double]] = {
+    def GradientDescent(model: List[Layer],network: List[NetworkLayer],grad: DenseMatrix[Double],weights: List[DenseMatrix[Double]],DW: List[DenseMatrix[Double]]): List[DenseMatrix[Double]] = {
       network match {
         case Nil => DW
         case x => {
@@ -149,18 +182,18 @@ class Model {
 
             //Recall function set new grad and pop model ,network and weights last elements
             GradientDescent(model.tail,network.tail,newGrad,weights.tail,dW :: DW)
-
           }
-
         }
       }
     }
+
     //Get derivative of error function
     val grad_error = GradError(network.head.activeNet,target)
     //Reverse Model
     val newModel = getModel.reverse
-    //Call gradientDescent and get all derivatives for all weights
-    val derivativesW = GradientDescent(newModel,network,grad_error,weights.reverse,Nil)
+
+    //Call Nested Recursive Function  gradientDescent and get all derivatives for all weights
+    GradientDescent(newModel,network,grad_error,weights.reverse,Nil)
 
   }
 
@@ -174,7 +207,7 @@ class Model {
     layer.nextLayerActivation match {
       case "relu" => GradRelu(net)
       case "sigmoid" => GradSigmoid(net)
-      case _ => DenseMatrix.ones[Double](net.rows,net.cols)
+      case _ => DenseMatrix.ones(net.rows,net.cols)
     }
   }
 
@@ -191,7 +224,7 @@ class Model {
   }
 
   //Derivative of The Sigmoid function => Gradient Descent
-  def GradSigmoid(net: DenseMatrix[Double]): DenseMatrix[Double] = net *:* (1.0 - net)
+  private def GradSigmoid(net: DenseMatrix[Double]): DenseMatrix[Double] = net *:* (1.0 - net)
 
   private def SquaredError(prediction: DenseMatrix[Double],target: DenseMatrix[Double]): DenseMatrix[Double] ={
     //Calculate the squared cost
@@ -216,7 +249,7 @@ class Model {
   private def removeBiasMatrix(matrix: DenseMatrix[Double]): DenseMatrix[Double] = matrix(::,0 to -2)
 
   //Check which activation function will activate Neurons
-  private def activation(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double] ={
+  private def activation(layer: Layer,data: DenseMatrix[Double]): DenseMatrix[Double]={
     layer.nextLayerActivation match {
       case "relu" => reluActivation(data)
       case "sigmoid" => sigmoidActivation(data)
@@ -225,7 +258,7 @@ class Model {
   }
 
   //Relu Activation Layer
-  private def reluActivation(layer: NNLayer): NNLayer ={
+  private def reluActivation(layer: DenseMatrix[Double]): DenseMatrix[Double] ={
     //Create a Matrix with zeros
       val z = DenseMatrix.zeros[Double](layer.rows,layer.cols)
     //Store every variable that is greater than zero
@@ -233,18 +266,17 @@ class Model {
   }
 
   //Sigmoid Activation Layer
-  private def sigmoidActivation(layer: NNLayer): NNLayer ={
+  private def sigmoidActivation(layer: DenseMatrix[Double]): DenseMatrix[Double] ={
     sigmoid(layer)
   }
 
-//  def softMaxActivation(layer: NNLayer): NNLayer ={
-//    softmax.apply(layer)
-//  }
+
 
   //Get the model transform it to a list
   def getModel = model.toList
 
   def getWeights = weights
+
   //Override method for print
   override def toString: String = (for((layer,i) <- getModel.view.zipWithIndex) yield s"Layer: ${i+1}\n" + layer.toString).mkString("\n")
 }

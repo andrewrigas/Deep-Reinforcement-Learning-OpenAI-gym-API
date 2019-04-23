@@ -3,16 +3,16 @@ package OpenAI.gym
 import spray.json.{DefaultJsonProtocol, JsArray, RootJsonFormat}
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 
+import org.apache.spark.rdd.RDD
+
+import org.apache.spark.SparkContext
+
 //Response Messages
 
-
 //Non-general Responses
-case class Observation(observation: List[Double])
+case class Observation(observation: Seq[Double])
 
-case class StepReply(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int])
-
-
-
+case class StepReply(observation: Seq[Double], reward: Double, done: Boolean, info: Map[String, Int])
 
 //General Responses
 case class EnvInstance(instance_id: String)
@@ -28,30 +28,22 @@ case class ActionSpace(info:DiscreteSpace) {
   }
 }
 
-case class BoxSpace(high: List[Double], low: List[Double], name: String, shape: List[Int])
+case class BoxSpace(high: Seq[Double], low: Seq[Double], name: String, shape: Seq[Int])
 
 case class ObservationSpace(info:BoxSpace)
 
 //Classic Control Responses
 
-case class ObservationClassicControl(observation: List[Double])
+case class ObservationClassicControl(observation: Seq[Double])
 
-case class StepReplyClassicControl(observation: List[Double], reward: Double, done: Boolean, info: Map[String, Int])
+case class StepReplyClassicControl(observation: Seq[Double], reward: Double, done: Boolean, info: Map[String, Int])
 
 
 //Atari Responses
-sealed trait AtariObservation{
-  val observation: List[List[(Double,Double,Double)]]
 
-  //Transform RGB values to Grayscale using average method
-  def rgbToGrayscale(): List[Double] ={
-    observation.flatMap(x => x.map(tuple => (tuple._1 + tuple._2 + tuple._3)/3))
-  }
-}
+case class ObservationAtari(observation: Seq[Iterable[(Double,Double,Double)]])
 
-case class ObservationAtari(observation: List[List[(Double,Double,Double)]]) extends AtariObservation
-
-case class StepReplyAtari(observation: List[List[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int]) extends AtariObservation
+case class StepReplyAtari(observation: Seq[Iterable[(Double,Double,Double)]], reward: Double, done: Boolean, info: Map[String, Int])
 
 
 //https://doc.akka.io/docs/akka/2.4.5/scala/http/routing-dsl/directives/marshalling-directives/entity.html
@@ -63,7 +55,7 @@ object EnvInstance extends DefaultJsonProtocol with SprayJsonSupport {
 }
 
 object ListEnvs extends DefaultJsonProtocol with SprayJsonSupport {
-  implicit val ListEnvsFormats = jsonFormat1(ListEnvs.apply)
+  implicit val SeqEnvsFormats = jsonFormat1(ListEnvs.apply)
 }
 
 object DiscreteSpace extends DefaultJsonProtocol with SprayJsonSupport {

@@ -4,24 +4,15 @@ package OpenAI.gym
 import akka.actor.{ActorSystem, Terminated}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.{HttpEntity, _}
-import akka.http.scaladsl.unmarshalling._
 import akka.stream.ActorMaterializer
-
 import scala.concurrent.duration._
 import scala.concurrent.{Await, ExecutionContextExecutor, Future}
 
-object gymClient {
+object gymClient{
 
-  //Actor represented by an ActorRef which is basically a pointer
-  //It has an Ordered mailbox with messages
-  //Processing asynchronously immutable messages
-  //One message handled at a time
-  //Each actor has a unique addresses
-  //They dont have shared state
-  //It can Change behaviour at runtime
 
-  private implicit val system = ActorSystem.create("system") // Create an Actor System for messages communication
 
+  implicit val system: ActorSystem = ActorSystem.create("system") // Create an Actor System for messages communication
   implicit def materializer: ActorMaterializer = ActorMaterializer() //Implicit Materializer use to encode Http Entity responses
 
   val executionContext: ExecutionContextExecutor = system.dispatcher //Implicit dispatcher for future function calls
