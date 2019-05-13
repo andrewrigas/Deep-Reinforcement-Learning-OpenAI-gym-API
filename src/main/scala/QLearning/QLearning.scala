@@ -11,7 +11,7 @@ case class QLearning(env: Environment) {
   type Action = Int
   type Reward = Double
 
-  //State is a subtype of Observation
+  //State is a type of Observation
   type State = Observation
   type NextState = Observation
 
@@ -21,13 +21,18 @@ case class QLearning(env: Environment) {
 
   //Discount Rate
   val gamma: Double = 0.9
+
   //Learning Rate
   val learning_rate: Double = 0.01
-  //Explore Rate
-  val epsilon: Int = 60
-  //Epsilon Min to Explore
-  val epsilonMin: Int = 10
 
+  //Explore Rate
+  var epsilon: Double = 100.0
+
+  //Epsilon Min to Explore
+  val epsilonMin: Double = 10.0
+
+  //Decrease epsilon value
+  val epsilonDecay: Double = 0.1
 
   private def Trials(qValues: QValues,episodes: Int,trials: Int,trial: Int = 0): QValues = {
     //Check trial if is larger than trials
@@ -37,6 +42,8 @@ case class QLearning(env: Environment) {
     }else {
       //Execute Episodes get new Q-Values Table
       val newQValues = Episodes(qValues,episodes)
+      //Decrease epsilon
+      if(epsilon > epsilonMin) epsilon -= epsilonDecay
       //Recall Trials
       Trials(newQValues,episodes,trials,trial+1)
     }

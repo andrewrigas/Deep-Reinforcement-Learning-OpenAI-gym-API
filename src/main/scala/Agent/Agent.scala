@@ -18,9 +18,11 @@ case class Agent(env: Environment){
   def state_size: Int = states.head
 
   //Epsilon to explore
-  val epsilon = 60
+  var epsilon = 100.0
   //Epsilon Min to explore
-  val epsilonMin = 10
+  val epsilonMin = 10.0
+  //Decrease epsilon value
+  val epsilonDecay: Double = 0.1
   //Discount factor
   val gamma = 0.9
   //Size of train data
@@ -44,6 +46,8 @@ case class Agent(env: Environment){
       val currState = toDenseMatrix(observation.observation)
       //Run episodes and get new trained model and newMemory
       val (newModel,newMemory) = this.episodes(model,currState,episodes,memory)
+      //Decrease epsilon
+      if(epsilon > epsilonMin) epsilon -= epsilonDecay
       //Call trials Again
       this.trials(newModel,trials-1,episodes,newMemory)
     }else {
@@ -80,7 +84,7 @@ case class Agent(env: Environment){
     }else {
       //drop from begin
       val newMemory = memory.drop(1)
-
+      //add to last
       newMemory :+ exp
     }
   }

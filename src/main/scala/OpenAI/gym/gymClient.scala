@@ -26,9 +26,13 @@ object gymClient{
   def terminate: Future[Terminated] = system.terminate() // Terminate Actor System
 
   def requestToApi(request: gymApi): HttpResponse = {
+    //create the url
     val url = host + ":" + port + request.url
+    //Create the request
     val httpRequest = HttpRequest(uri = url).withMethod(request.method).withEntity(HttpEntity(contentType, request.json))
+    //Send the request
     val responseFuture: Future[HttpResponse] = Http().singleRequest(httpRequest)
+    //Wait a specific timeout to arrive and return the entity
     Await.result(responseFuture, timeout.second)
   }
 

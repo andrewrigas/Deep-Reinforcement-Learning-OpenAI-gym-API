@@ -4,7 +4,7 @@
 		module="attari-machine-learning$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190423210229"
+		publication="20190513201121"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -2,275 +2,50 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/scala/test.sc" line="6" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" line="53" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" line="60" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae2d9bf-9226-4736-80bf-bd7a3ceb83da" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_14_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_univocity_univocity_parsers_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_8_0_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_0_42_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_5_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_11_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_11_3_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_2_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_3_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/AgentTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/EnvironmentTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/GeneralPropertyTesting.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/ModelTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/QLearningTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_12_2_3_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_jackson_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_jackson_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_11_10_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_testkit_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_testkit_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_11_0_2_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_1_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_11_1_3_4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalacheck_scalacheck_2_12_1_14_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalacheck_scalacheck_2_11_1_14_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_12_0_13_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_12_0_13_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_natives_2_12_0_13_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_natives_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_viz_2_12_0_13_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_viz_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_12_0_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_12_0_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Attari Machine Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0013f6b6d0ad2500acd0$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$0013f6b6d0ad2500acd0$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$211fb3177532b9f71486$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$211fb3177532b9f71486$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b308d189e20ebd2b628$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b308d189e20ebd2b628.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b308d189e20ebd2b628.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4bab345f6a83183871e5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4bab345f6a83183871e5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4bab345f6a83183871e5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59620bad22c3e89a9dd0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59620bad22c3e89a9dd0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59620bad22c3e89a9dd0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9cbd190b28797d018037$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$9cbd190b28797d018037$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f003617266567d9b9efe$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$f003617266567d9b9efe$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/attari-machine-learning-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-attari-machine-learning-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/test.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Agent/Agent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Layer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/NetworkLayer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NeuralNetwork/NetworkLayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ActionSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ActionSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/AtariEnvironment$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/AtariEnvironment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/AtariObservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/BoxSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/BoxSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ClassicControlEnvironment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/DiscreteSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/DiscreteSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/EnvInstance$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/EnvInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Environment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ListEnvs$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ListEnvs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/Observation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationAtari.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationClassicControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/ObservationSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyAtari.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/StepReplyClassicControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/actionSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/actionSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/createEnv$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/createEnv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gym$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gym.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gymApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gymClient$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/gymClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/listEnvs$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/listEnvs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/monitorClose$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/monitorClose.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/monitorStart$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/monitorStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/obsSpace$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/obsSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/resetEnv$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/resetEnv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/shutdown$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/shutdown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/stepEnv$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/stepEnv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/upload$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/OpenAI/gym/upload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/QLearning/QLearning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/test.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/attari-machine-learning_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-attari-machine-learning_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Agent$$anonfun$train$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Agent$$anonfun$train$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Experience$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Experience$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Experience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Agent/Experience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/OpenAI/gym/gymClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/OpenAI/gym/gymClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$E_greedy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$E_greedy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$getQValues$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$getQValues$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$getQValues$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning$$anonfun$getQValues$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QLearning/QLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/main$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/main$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/main$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/test.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/attari-machine-learning$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-attari-machine-learning$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -312,25 +87,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="705">
+              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
               <folding>
-                <element signature="e#2#21#0" expanded="true" />
+                <element signature="e#14#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/AgentTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="134">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
-                <element signature="e#1#15#0" expanded="true" />
+                <element signature="e#20#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -339,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="4">
               <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="e#20#60#0" expanded="true" />
@@ -360,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="600">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="e#21#64#0" expanded="true" />
               </folding>
@@ -372,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="645">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="78" />
               <folding>
                 <element signature="e#20#84#0" expanded="true" />
               </folding>
@@ -381,34 +156,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="240">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
-                <element signature="e#20#79#0" expanded="true" />
+                <element signature="e#2#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="54" />
               <folding>
-                <element signature="e#21#82#0" expanded="true" />
+                <element signature="e#20#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -417,10 +183,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="3135">
+              <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
               <folding>
                 <element signature="e#24#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#21#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -448,31 +226,31 @@
         <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/layer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/QLearning/as.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Actors/MatrixMultiplication.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/Actors/Agents.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/GeneralPropertieTesting.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ModelTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/QLearningTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/GeneralPropertyTesting.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/AgentTest.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Agent/Agent.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="27" />
-    <option name="width" value="1438" />
-    <option name="height" value="972" />
+    <option name="x" value="2019" />
+    <option name="y" value="20" />
+    <option name="width" value="1221" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -482,7 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -540,11 +318,25 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="gym" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Attari Machine Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Attari Machine Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="QLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Attari Machine Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Attari Machine Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,6 +388,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="Attari Machine Learning" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgentTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Attari Machine Learning" />
       <setting name="path" value="AgentTest" />
@@ -617,6 +418,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="ScalaTest.AgentTest" />
         <item itemvalue="Application.gymClient" />
       </list>
@@ -741,6 +543,17 @@
       <workItem from="1556044626709" duration="1290000" />
       <workItem from="1556047273039" duration="643000" />
       <workItem from="1556048020049" duration="2416000" />
+      <workItem from="1556065117783" duration="829000" />
+      <workItem from="1556132071138" duration="609000" />
+      <workItem from="1556294623008" duration="504000" />
+      <workItem from="1556566165469" duration="706000" />
+      <workItem from="1556581960117" duration="2404000" />
+      <workItem from="1556668360531" duration="5000" />
+      <workItem from="1556739230753" duration="858000" />
+      <workItem from="1557329029140" duration="1408000" />
+      <workItem from="1557602809078" duration="3095000" />
+      <workItem from="1557703782568" duration="1639000" />
+      <workItem from="1557774670748" duration="8611000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1552516123710</created>
@@ -758,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344769000" />
+    <option name="totallyTimeSpent" value="365437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,11 +583,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4697624" visible="true" weight="0.26175982" />
-      <window_info id="Structure" order="1" sideWeight="0.53023756" side_tool="true" visible="true" weight="0.26175982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4554217" visible="true" weight="0.25984848" />
+      <window_info id="Structure" order="1" sideWeight="0.5445783" side_tool="true" visible="true" weight="0.25984848" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -782,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49363586" weight="0.35313174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49363586" visible="true" weight="0.3525741" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853158" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -903,20 +716,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/MatrixMultiplication.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.12-sources.jar!/akka/dispatch/Mailbox.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="190">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.12/srcs/spark-core_2.12-2.4.1-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="9750">
+          <caret line="706" column="68" selection-start-line="706" selection-start-column="68" selection-end-line="706" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/AgentTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <element signature="e#20#39#0" expanded="true" />
+            <element signature="e#1#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/EnvironmentTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/GeneralPropertyTesting.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -934,40 +775,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/GeneralPropertyTesting.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/EnvironmentTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.12-sources.jar!/akka/dispatch/Mailbox.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.12/srcs/spark-core_2.12-2.4.1-sources.jar!/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9750">
-          <caret line="706" column="68" selection-start-line="706" selection-start-column="68" selection-end-line="706" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#14#40#0" expanded="true" />
+            <element signature="e#21#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="78" />
+          <folding>
+            <element signature="e#20#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,46 +819,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaActors/ExecuteAgent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#21#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-          <folding>
-            <element signature="e#24#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/AgentTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gym.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="4">
           <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
             <element signature="e#20#60#0" expanded="true" />
@@ -1026,29 +829,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymClient.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NeuralNetwork/model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="3135">
+          <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
           <folding>
-            <element signature="e#21#64#0" expanded="true" />
+            <element signature="e#24#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/gymResponse.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QLearning/QLearning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="54" />
           <folding>
-            <element signature="e#20#84#0" expanded="true" />
+            <element signature="e#20#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Agent/Agent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+          <folding>
+            <element signature="e#14#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenAI/gym/Enviroment.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
+        <state relative-caret-position="134">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="e#20#79#0" expanded="true" />
@@ -1058,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="e#2#21#0" expanded="true" />
           </folding>

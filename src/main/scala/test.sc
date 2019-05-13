@@ -24,3 +24,5 @@ val d = DenseMatrix.rand[Double](3,1)
 d(1,0) = 1
 
 val b = d
+
+
